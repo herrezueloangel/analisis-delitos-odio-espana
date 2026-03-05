@@ -67,6 +67,31 @@ Se analiza la relación entre el porcentaje de voto de los principales partidos 
 
 ---
 
+## 📂 Estructura del proyecto
+
+analisis-delitos-odio-espana  
+│  
+├── dashboard  
+│   └── delitos_odio_dashboard.pbix  
+│  
+├── sql  
+│   └── analisis_delitos_odio.sql  
+│  
+├── images  
+│   ├── dashboard_general.png  
+│   └── analisis_politico.png  
+│  
+└── README.md
+
+---
+
+Fuente de datos: Ministerio del Interior de España  
+Portal Estadístico de Criminalidad
+
+---
+
 ## 👤 Autor
 
 Ángel Herrezuelo
+
+
