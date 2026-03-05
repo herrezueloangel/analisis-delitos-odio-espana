@@ -79,6 +79,29 @@ El análisis refuerza lo observado en el dashboard: el fenómeno de los delitos 
 
 ---
 
+## 🔄 Workflow del análisis
+
+El proyecto sigue el siguiente flujo de trabajo:
+
+1. **Extracción de datos**
+   - Datos oficiales del Ministerio del Interior
+   - Resultados electorales
+
+2. **Transformación y limpieza (SQL)**
+   - Creación de tablas agregadas
+   - Cálculo de crecimiento interanual
+   - Integración de datasets
+
+3. **Visualización (Power BI)**
+   - Dashboard interactivo
+   - Análisis de tendencias y distribución
+
+4. **Análisis estadístico (Python)**
+   - Cálculo de correlación
+   - Regresión lineal
+  
+  ---
+
 ## 📈 Resultados principales
 
 - Los delitos de odio muestran una **tendencia creciente a partir de 2018**.
@@ -102,6 +125,15 @@ analisis-delitos-odio-espana
 │   └── analisis_politico.png  
 │  
 └── README.md
+
+---
+
+## 📌 Conclusiones
+
+- Los delitos de odio muestran una tendencia creciente desde 2018.
+- El ámbito más frecuente es racismo/xenofobia.
+- El análisis estadístico muestra una **correlación muy débil (r = 0.17)** entre apoyo electoral y peso de los delitos de odio.
+- Esto sugiere que el fenómeno está influido por múltiples factores sociales.
 
 ---
 
