@@ -18,6 +18,21 @@ El análisis se ha realizado mediante consultas en **SQL** para la preparación 
 
 ---
 
+## 🗂️ Dataset
+
+Los datos utilizados en este proyecto proceden de informes oficiales del Ministerio del Interior de España sobre delitos de odio.
+
+Los datasets utilizados incluyen:
+
+- Total de delitos registrados por año
+- Delitos de odio por año
+- Delitos de odio por ámbito
+- Resultados electorales de elecciones generales
+
+Esto hace que el proyecto parezca más riguroso. donde agrego esto
+
+---
+
 ## 🧰 Tecnologías utilizadas
 
 - **MySQL** → limpieza y consultas de datos  
