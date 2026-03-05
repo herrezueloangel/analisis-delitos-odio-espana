@@ -35,9 +35,9 @@ Esto hace que el proyecto parezca más riguroso. donde agrego esto
 
 ## 🧰 Tecnologías utilizadas
 
-- **MySQL** → limpieza y consultas de datos  
-- **Power BI** → modelado de datos y visualización  
-- **DAX** → creación de métricas y KPIs  
+- **SQL (MySQL)** → limpieza, transformación y agregación de datos  
+- **Power BI** → visualización interactiva y dashboard  
+- **Python (pandas, seaborn, matplotlib)** → análisis estadístico y visualización adicional
 
 ---
 
@@ -56,6 +56,26 @@ El dashboard muestra la evolución de los delitos de odio en España, su peso re
 ![Análisis político](images/analisis_politico.png)
 
 Se analiza la relación entre el porcentaje de voto de los principales partidos políticos y el peso de los delitos de odio. El análisis exploratorio no muestra una correlación directa clara entre ambas variables.
+
+---
+
+## 🐍 Análisis estadístico en Python
+
+Se realizó un análisis adicional en Python para explorar la posible relación entre el porcentaje de voto de los partidos políticos y el peso de los delitos de odio sobre el total de infracciones penales.
+
+Para ello se utilizó la librería **pandas** para el tratamiento de datos y **seaborn/matplotlib** para la visualización.
+
+Se calculó el coeficiente de correlación entre ambas variables:
+
+**r = 0.17**
+
+Este valor indica una **correlación muy débil**, lo que sugiere que no existe una relación lineal significativa entre el apoyo electoral a partidos concretos y el peso de los delitos de odio.
+
+El análisis refuerza lo observado en el dashboard: el fenómeno de los delitos de odio parece estar influido por múltiples factores sociales, económicos y mediáticos, más allá del comportamiento electoral.
+
+### Visualización del análisis
+
+![Relación entre voto y delitos de odio](images/correlacion_voto_delitos_odio.png)
 
 ---
 
